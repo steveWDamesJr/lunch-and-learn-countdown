@@ -10,6 +10,6 @@ document.getElementById("lunch&learn").innerHTML = Days + "d "
 + Hours + "h " + Minutes + "m " + Seconds + "s";
     if (t < 0) {
         clearInterval(x);
-        document.getElementById("lunch&learn").innerHTML = "Looks like you've missed the Nov 18, 2022 live lunch and learn. No worries! You check Microvere's YouTube channel for a recording of the event!";
+        document.getElementById("lunch&learn").innerHTML = "Looks like you've missed the Nov 18, 2022 live lunch and learn. No worries! You can check Microverse's YouTube channel for a recording of the event!";
     }
 }, 1000);
